@@ -1,8 +1,5 @@
 def dodaj (a,b):
-    a=input()
-    b=input()
-    print(int(a)+int(b))
+    return a+b
 x=int(input())
 y=int(input())
-dodaj()
-print(x)
+print(dodaj(x,y))
